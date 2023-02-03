@@ -14,10 +14,14 @@ a{
 
 .main{
     width: 1100px;
-    height: 800px;
+    /* height: 800px; */
     background: #C4C4C4;
-    padding-top: 50px;
+    /* margin-bottom: 50px;
+    padding-bottom: 50px; */
+    padding: 50px 50px 50px 50px;
+    margin: auto;
 }
+
 .first-line{
     width: 1000px;
     height: 200px;
@@ -38,7 +42,7 @@ background-color: #FC8F8F;
 
 .second-line{
     width: 1000px;
-    height: 200px;
+    /* height: 200px; */
     background: #E6E6E6;
     margin: auto;
     margin-top: 50px;
@@ -75,9 +79,10 @@ background-color: #FC8F8F;
 }
 .third-line{
     width: 1000px;
-    height: 200px;
+    /* height: 200px; */
     background: #E6E6E6;
-    margin: 50px auto;
+    /* margin: 50px auto; */
+    margin-top: 50px;
 }
 .first-box{
     width: 415px;
