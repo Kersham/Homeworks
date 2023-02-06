@@ -10,3 +10,58 @@ ol,ul{
 a{
     text-decoration: none;
 }
+
+
+.container{
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+.menu{
+margin-top: 25px;
+margin-bottom: 150px;
+}
+
+.menu-item{
+    display: inline-block;
+    padding: 15px 25px;
+}
+
+.h1{
+    margin-bottom: 50px;
+}
+.head-section{
+    margin-bottom: 200px;
+}
+.btn{
+    margin-left: 1138px;
+    margin-top: 50px;
+    /* border: 1px solid blue; */
+    width: 185px;
+    height: 75px;
+}
+.text{
+    color: white;
+}
+.btn a{
+    background-color: rgb(76, 119, 175);
+    padding: 20px 25px;
+    display: block;
+}
+
+.about-me{
+    margin: auto;
+    width: 500px;
+    height: 200px;
+}
+.h2{
+    margin-bottom: 50px;
+    margin-left: 200px;
+}
+
+.projects{
+    height: 200px;
+    width: 3400px;
+    background-color: rgb(76, 119, 175);
+    margin: auto;
+}
