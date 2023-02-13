@@ -48,8 +48,8 @@ background-color: #FC8F8F;
     margin-top: 50px;
 }
 .squares{
-    width: 450px;
-    height: 200px;
+    /* width: 450px; */
+    /* height: 200px; */
     background-color:#E6E6E6;
     float: right;
 }
@@ -58,7 +58,7 @@ background-color: #FC8F8F;
     height: 100px;
     display: inline-block;
     background-color: #FC8F8F;
-    margin-right: 5px;
+    margin-left: 10px;
 }
 .small-square1{
     display: inline-block;
