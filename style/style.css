@@ -94,10 +94,7 @@ margin-bottom: 150px;
 }
 
 .projects-item{
-width: 900px;
-height: 100px;
-/* margin-left: 10px;
-display: inline-block; */
+display: inline-block;
 }
 
 .my-job{
@@ -122,4 +119,15 @@ margin-bottom: 100px;
     width: 3400px;
     background-color: rgb(76, 119, 175);
     padding: 50px;
+}
+
+.projects-item img{
+    margin: 0 15px;
+    display: inline-block;
+}
+.projects-item img:last-child{
+    margin-left: 0;
+}
+.projects-item img:first-child{
+    margin-left: 0;
 }
