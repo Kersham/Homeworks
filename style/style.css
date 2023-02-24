@@ -67,6 +67,9 @@ a {
     color: black;
 }
 
+.super-chair{
+    background-color: #F13C6E;
+}
 .picture {
     background-image: url("../images/2.png");
     height: 604px;
