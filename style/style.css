@@ -251,10 +251,11 @@ a {
     flex-flow: row wrap;
     justify-content: space-between;
 }
-
+.green-chair2{
+    padding-bottom: 80px;
+}
 .end{
     background-color: #FFFFFF;
-    padding-top: 80px;
 }
 .wrap-block{
     display: flex;
