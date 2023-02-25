@@ -1,41 +1,49 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 
 }
-ol,ul{
+
+ol,
+ul {
     list-style: none;
 }
-a{
+
+a {
     text-decoration: none;
 }
 
 
-.container{
-  max-width:1100px;
-  margin: 0 auto;
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
 }
 
-.menu{
-margin-top: 25px;
-margin-bottom: 150px;
+.head-section {
+    padding-top: 150px;
 }
 
-.menu-item{
+.menu {
+    margin-top: 25px;
+}
+
+.menu-item {
     display: inline-block;
     padding: 15px 25px;
     position: relative;
 }
-.menu-item a{
+
+.menu-item a {
     color: black;
     text-transform: uppercase;
 }
-.menu-item a:hover{
-    color:brown;
+
+.menu-item a:hover {
+    color: brown;
 }
 
-.menu-item::before{
+.menu-item::before {
     content: "";
     position: absolute;
     height: 2px;
@@ -46,88 +54,95 @@ margin-bottom: 150px;
     transition: 0.5s;
 }
 
-.menu-item:hover::before{
+.menu-item:hover::before {
     width: 100%;
 }
-   
 
-.h1{
+
+.h1 {
     margin-bottom: 50px;
 }
-.head-section{
+
+.head-section {
     margin-bottom: 200px;
 }
-.btn{
+
+.btn {
     margin-top: 50px;
     width: 175px;
     height: 75px;
 }
-.text{
+
+.text {
     color: white;
     transition: .5s ease-in-out;
 }
-.btn a{
+
+.btn a {
     background-color: rgb(76, 119, 175);
     padding: 20px 25px;
     display: block;
     transition: .5s ease-in-out;
 }
-.text:hover{
+
+.text:hover {
     background-color: red;
 }
 
-.about-me{
+.about-me {
     margin: auto;
     width: 500px;
     height: 200px;
 }
-.h2{
+
+.h2 {
     margin-bottom: 50px;
     margin-left: 200px;
 }
 
-.projects{
-    height: 200px;
-    width: 3400px;
+.projects {
     background-color: rgb(76, 119, 175);
-    padding-top: 75px;
+    padding: 75px 0;
 }
 
-.projects-item{
-display: inline-block;
+.projects-item {
+    display: inline-block;
+}
+.projects-item img{
+    margin: 0 22px;
+    display: inline-block;
 }
 
-.my-job{
+.my-job {
     margin: auto;
     width: 500px;
     height: 200px;
     margin-top: 100px;
 }
 
-.h22{
+.h22 {
     margin-bottom: 50px;
     margin-left: 150px;
 }
 
-.picture{
-margin-left: 1000px;
-margin-bottom: 100px;
+.ptr{
+    padding-bottom: 100px;
 }
-
-.end{
+.end {
     height: 150px;
-    width: 3400px;
     background-color: rgb(76, 119, 175);
     padding: 50px;
 }
 
-.projects-item img{
+.projects-item img {
     margin: 0 15px;
     display: inline-block;
 }
-.projects-item img:last-child{
+
+.projects-item img:last-child {
     margin-left: 0;
 }
-.projects-item img:first-child{
+
+.projects-item img:first-child {
     margin-left: 0;
 }
