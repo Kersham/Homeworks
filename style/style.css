@@ -252,4 +252,26 @@ a {
     justify-content: space-between;
 }
 
-
+.end{
+    background-color: #FFFFFF;
+    padding-top: 80px;
+}
+.wrap-block{
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 0 20px 0;
+    background-color: #FFFFFF;
+}
+.popular-text{
+    font-size: 20px;
+    color: #000000;
+    background-color: #FFFFFF;
+}
+.items{
+    background-color: #FFFFFF;
+}
+.items-text{
+    font-size: 15px;
+    color: #828282;
+    background-color: #FFFFFF;
+}
