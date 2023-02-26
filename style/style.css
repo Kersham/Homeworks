@@ -276,3 +276,67 @@ a {
     color: #828282;
     background-color: #FFFFFF;
 }
+/* .wrap-contacts{
+    width: 240px;
+    display: flex;
+    justify-content: space-between;
+}
+.wrap-contacts a{
+    text-align: center;
+}
+.wrap-mobile-call{
+    display: flex;
+    justify-content: end;
+    justify-content: space-around;
+} */
+
+.wrap-contacts{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    padding-top: 35px;
+}
+.contact{
+    background-color: #FFFFFF;
+}
+.contact a{
+    margin: 0 20px;
+}
+.mobile-call{
+width: 340px;
+background-color: #FFFFFF;
+}
+.btn-call{
+    float: right;
+    
+}
+.btn-call a{
+    background-color: #FFFFFF;
+    padding: 10px 25px 10px 25px;
+    color:#000000;
+    font-size: 15px;
+    border-radius: 30px;
+    text-align: center;
+    border: 2px solid #F13C6E;
+}
+.tel{
+    background-color: #FFFFFF;
+}
+.tel a{
+    font-size: 20px;
+    color: #000000;
+    background-color: #FFFFFF;
+}
+.messenger{
+    background-color: #FFFFFF;
+}
+
+.last-end{
+    background-color: #EFEFEF;
+}
+
+.wrap-shop{
+    display: flex;
+    justify-content: space-between;
+}
+
