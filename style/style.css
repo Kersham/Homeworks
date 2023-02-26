@@ -114,13 +114,20 @@ a {
 
 
 .text-h3 {
-    margin: 80px 0 40px 0;
+    padding-bottom: 40px;
     font-size: 24px;
+}
+
+.impuls{
+    padding-bottom: 80px;
+}
+.text-h33{
+    padding: 80px 0 40px 0;
+    font-size: 25px;
 }
 
 .block-image {
     width: 255px;
-    /* padding: 25px 65px 20px 65px; */
     background-color: #FFFFFF;
     padding-top: 25px 0 20px 0;
 }
@@ -238,8 +245,8 @@ a {
     margin-top: 100px;
 }
 
-.impuls{
-    margin-top: 135px;
+.mail-car{
+    padding-bottom: 135px;
 }
 
 .picture-impuls img{
@@ -256,6 +263,7 @@ a {
 }
 .end{
     background-color: #FFFFFF;
+    padding-bottom: 40px;
 }
 .wrap-block{
     display: flex;
@@ -276,19 +284,6 @@ a {
     color: #828282;
     background-color: #FFFFFF;
 }
-/* .wrap-contacts{
-    width: 240px;
-    display: flex;
-    justify-content: space-between;
-}
-.wrap-contacts a{
-    text-align: center;
-}
-.wrap-mobile-call{
-    display: flex;
-    justify-content: end;
-    justify-content: space-around;
-} */
 
 .wrap-contacts{
     display: flex;
@@ -301,6 +296,7 @@ a {
 }
 .contact a{
     margin: 0 20px;
+    background-color: #FFFFFF
 }
 .mobile-call{
 width: 340px;
@@ -333,10 +329,16 @@ background-color: #FFFFFF;
 
 .last-end{
     background-color: #EFEFEF;
+    padding: 30px;
 }
 
 .wrap-shop{
     display: flex;
     justify-content: space-between;
+    background-color:#EFEFEF;
 }
-
+.best-shop{
+    font-size: 12px;
+    color: #828282;
+    background-color:#EFEFEF;
+}
