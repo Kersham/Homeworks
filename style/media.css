@@ -1,0 +1,43 @@
+/* @media screen and (max-width: 800px) {
+    .picture-impuls{
+        width: 30%;
+    }
+
+}
+@media screen and (max-width:1010px) {
+   .block-image{
+width: 30%;
+   }
+}
+
+@media screen and (max-width:800px) {
+    .block-mail{
+        width: 50%;
+    }
+    .container{
+        flex-direction: column;
+    }
+} */
+
+
+
+
+/* Для мониторов старых 1024px */
+@media screen and (max-width:1100px) {
+    .container{
+        max-width: 970px;
+    }
+}
+/* Для планшетов */
+@media screen and (max-width:992px) {
+    .container{
+        max-width: 750px;
+    }
+}
+/* Для мобильных версий */
+@media screen and (max-width:767px) {
+    .container{
+        max-width: none;
+    }
+}
+
