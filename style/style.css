@@ -301,10 +301,12 @@ a {
 .mobile-call{
 width: 340px;
 background-color: #FFFFFF;
+display: flex;
+justify-content: space-between;
 }
+
 .btn-call{
-    float: right;
-    
+    background-color: #FFFFFF;
 }
 .btn-call a{
     background-color: #FFFFFF;
