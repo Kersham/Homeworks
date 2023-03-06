@@ -16,6 +16,7 @@ a {
 .container {
   max-width: 1440px;
   margin: 0 auto;
+  background: #E5E5E5;
 }
 
 .text1 {
@@ -29,6 +30,13 @@ a {
   color: #000000;
   size: 16px;
   font-weight: 400;
+  font-family: "Open Sans";
+}
+
+.btn-text a {
+  color: #FF4B32;
+  size: 16px;
+  font-weight: 600;
   font-family: "Open Sans";
 }
 
@@ -69,6 +77,13 @@ a {
   padding: 10px 0 0 30px;
 }
 
-.text3 {
+.btn-text {
   padding: 20px 0 30px 35px;
+}
+
+.coffee-beans {
+  width: 362px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 3px 3px 20px gray;
 }/*# sourceMappingURL=style.css.map */

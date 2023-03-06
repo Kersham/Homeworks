@@ -21,6 +21,7 @@ a {
 .container {
     max-width: 1440px;
     margin: 0 auto;
+    background: #E5E5E5;
 }
 
 
@@ -32,8 +33,8 @@ a {
     @include font(#000000, 16px, 400, );
 }
 
-.text3{
-    @include font()
+.btn-text a{
+    @include font(#FF4B32,16px,600)
 }
 
 .block {
@@ -70,7 +71,13 @@ a {
     padding: 10px 0 0 30px;
 }
 
-.text3{
+.btn-text{
     padding: 20px 0 30px 35px;
 }
 
+.coffee-beans{
+    width: 362px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 3px 3px 20px gray;
+}
