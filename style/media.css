@@ -1,19 +1,23 @@
 @media screen and (max-width: 800px) {
-    .picture-impuls{
+    /* .picture-impuls{
         width: 30%;
-    }
+    } */
 
 }
-@media screen and (max-width:1010px) {
-   .block-image{
-width: 30%;
-   }
-}
+
+/* @media screen and (max-width:1100px) {
+    .wrap-four-block{
+        justify-content: space-around;
+    }
+    .container{
+        /* padding: 90%; */
+        width: 90%;
+    }
+
+} */
 
 @media screen and (max-width:990px) {
-    .block-mail{
-        width: 30%;
-    }
+
 }
 
 
@@ -24,23 +28,23 @@ width: 30%;
 
 
 /* Для мониторов старых 1024px */
-/* @media screen and (max-width:1100px) {
+@media screen and (max-width:1100px) {
     .container{
         max-width: 970px;
     }
-} */
+}
 /* Для планшетов */
-/* @media screen and (max-width:992px) {
+@media screen and (max-width:992px) {
     .container{
         max-width: 750px;
     }
-} */
+}
 /* Для мобильных версий */
-/* @media screen and (max-width:767px) {
+@media screen and (max-width:767px) {
     .container{
-        max-width: none;
+        max-width: auto;
     }
-} */
+}
 
 /* .container{
     max-width: 1100px;
